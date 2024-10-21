@@ -1,0 +1,705 @@
+/* Bootstrap v5.3  */
+
+*, html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    /* background-color: #fcffeb; */
+    z-index: 1;
+    background: linear-gradient(-45deg, rgb(250, 236, 236), rgb(234, 250, 234), rgb(240, 240, 240), rgb(255, 255, 239));
+    background-size: 400% 400%;
+    width: 100%;
+    height: 140vh;
+    animation: animate 15s ease infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+/* LOGIN */
+.login{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* NAVBAR */
+.navbar{
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-top: auto;
+}
+.navbar a{
+    /* display: block; */
+    text-decoration: none;
+    float: right;
+    border: 10px;
+}
+.content{
+    padding: 15px;
+}
+.navbar-toggler{
+    margin-top: -50px;
+    margin-left: auto;
+    border: 0;
+}
+.navbar-brand{
+    padding: 0;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-size: 32px;
+    
+}
+.navbar-brand img{
+    width: 55px;
+    /* display: inline-block; */
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    opacity: 0.5;
+    transition: 3s;
+    scroll-behavior: smooth;
+}
+.sticky + .content {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+/* TABLE */
+.sampul{
+    margin-top: 6px;
+    width: 50px;
+}
+
+.table > tbody > tr > * {
+    vertical-align: middle;
+}
+.alert{
+    margin-bottom: -45px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+        background-image: url(/img/bg-1.jpg);
+        background-size: cover;
+        height: 540px;
+        text-align: center;
+        background-attachment: fixed;
+}
+.jumbotron .txtjumbo{
+    color: #0B63DC;
+    margin-top: 150px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+
+}
+.jumbotron a{
+    margin-top: 500px;
+}
+
+
+/* INFO PANEL */
+.info-panel{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-top: -50px;
+    background-color: white;
+    padding: 10px;
+}
+.info-panel a{
+    text-decoration: none;
+}
+/* .info-panel a:hover{
+    opacity: .70;
+    transform: scale(3s);
+    filter: hue-rotate(80deg);
+    transform: translateY(-5px);
+} */
+.panel_modul:hover, .panel_jadwal:hover, .panel_kontak:hover{
+    -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  }
+
+.info-panel img{
+    width: 60px;
+    height: 60px;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+.info-panel h4{
+    margin-top: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+}
+.info-panel p{
+    font-size: 12px;
+    color: #ACACAC;
+    margin-top: -5px;
+    font-weight: 200;
+}
+
+
+
+/* JADWAL */
+
+/* .jadwal{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    text-align: justify;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.jadwal h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.no{
+    text-align: center;
+}
+
+
+.form-jadwal{
+    margin-top: -50px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.form-jadwal h1{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.gagal-alert{
+    margin-top: -15px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+
+.alert{
+    margin-bottom: -85px;
+    padding: 7px;
+
+} */
+
+
+
+/* FORM BOX */
+
+.box{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    text-align: justify;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.box h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.no{
+    text-align: center;
+}
+
+.form-box{
+    margin-top: -50px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.form-box h1{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.gagal-alert{
+    margin-top: -15px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+
+.alert{
+    margin-bottom: -85px;
+    padding: 7px;
+
+}
+
+
+/* ABOUT */
+.about{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.about img{
+    border-radius: 30px;
+}
+.about h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about p{
+    margin-top: 40px;
+    font-size: 15px;
+    color: #ACACAC;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+
+/* Gallery */
+.gallery{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.gallery img{
+    border-radius: 30px;
+    display: inline-block;
+
+}
+.gallery span{
+    font-weight: 200;
+}
+.gallery h3{
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.gallery p{
+    font-size: 9px;
+    color: #ACACAC;
+}
+
+
+
+
+/* PENGURUS */
+.pengurus{
+    margin-top: 200px;
+    text-align: center;
+}
+.pengurus h5{
+    color: #ACACAC;
+    font-weight: 200;
+    font-size: 24px;
+    font-style: italic;
+}
+.pengurus figure img{
+    width: 80px;
+    border-radius: 15px;
+    margin: 20px 15px;
+    opacity: 0.6;
+}
+
+.pengurus figure h5{
+    font-size: 15px !important;
+    font-weight: bold;
+    font-style: normal;
+    color: #1C2C5D;
+}
+.pengurus figure p{
+    margin-top: -10px;
+    font-size: 12px;   
+}
+
+/* UTILITY */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px !important;
+}
+
+
+/* SEARCH */
+.search{
+    margin-top: 50px;
+    margin-bottom: -30px;
+
+}
+
+
+
+
+/* ABOUT US */
+.aboutus{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.aboutus h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.aboutus p{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+/* VISI MISI */
+.visi-misi{
+    text-transform: capitalize;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.visi-misi h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10pt;
+    margin-bottom: 100px;
+}
+.visi-misi h2{
+    text-align: center;
+    color: green;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-weight: bold;
+}
+.visi-misi p{
+    text-align: justify;
+}
+.visi-misi img{
+    width: 7rem;
+    margin-bottom: 30px;
+}
+
+
+
+/* PERATURAN */
+.aturan{
+    text-transform: capitalize;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.aturan h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.aturan p{
+    text-align: left;
+}
+.aturan img{
+    width: 7rem;
+    margin-bottom: 30px;
+}
+
+
+/* GALLERY */
+.parallax{
+    /* width: 100%; */
+    height: 120vh;
+    margin-top: -101px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.komputer-1{
+    background-position: 0 1px;
+    background-image: url(/img/galery/g-1.jpg);
+}
+.komputer-2{
+    background-image: url(/img/galery/g-2.jpg);
+}
+.komputer-3{
+    background-image: url(/img/galery/g-3.jpg);
+}
+
+
+.program-1{
+    background-position: 0 1px;
+    background-image: url('https://fasilkom.ubharajaya.ac.id/wp-content/uploads/photo-gallery/RUANG_LAB_KOMPUTER_PEMROGRAMAN_1.jpg?bwg=1609007443');
+}
+.program-2{
+    background-image: url('https://fasilkom.ubharajaya.ac.id/wp-content/uploads/photo-gallery/RUANG_LAB_KOMPUTER_PEMROGRAMAN_2.jpg?bwg=1609007443');
+}
+.program-3{
+    background-image: url('https://fasilkom.ubharajaya.ac.id/wp-content/uploads/photo-gallery/RUANG_LAB_KOMPUTER_DASAR_3.jpg?bwg=1609007443');
+}
+
+
+.jaringan-1{
+    background-position: 0 1px;
+    background-image: url('https://fasilkom.ubharajaya.ac.id/wp-content/uploads/photo-gallery/RUANG_LAB_KOMPUTER_JARINGAN__KEMANAN_1.jpg?bwg=1609007443');
+}
+.jaringan-2{
+    background-image: url('https://fasilkom.ubharajaya.ac.id/wp-content/uploads/photo-gallery/RUANG_LAB_KOMPUTER_JARINGAN__KEMANAN_2.jpg?bwg=1609007443');
+}
+.jaringan-3{
+    background-image: url('https://fasilkom.ubharajaya.ac.id/wp-content/uploads/photo-gallery/RUANG_LAB_KOMPUTER_DASAR_3.jpg?bwg=1609007443');
+}
+.isi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2em;
+    background: none;
+    letter-spacing: 10px;
+    font-family: fantasy;
+    color: white;
+    text-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    opacity: 0.5;
+}
+
+
+/* MODUL */
+.modul{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.logo{
+    width: 10vh;
+    float: right;
+}
+.modul h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+/* KONTAK */
+.contact{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contact h1{
+    margin-bottom: 100px;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+.contact p{
+    text-align: left;
+    color: #ACACAC;
+}
+.maps{
+    margin-top: 100px;
+    border-radius: 10px;
+}
+iframe{
+    width: 100%;
+    height: 50vh;
+}
+
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+
+    /* NAVBAR D */
+    .navbar{
+        border-radius: 300px;
+        margin-top: 30px;
+        margin-right: 250px;
+        margin-left: 250px;
+        background-color: #fff;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    }
+    
+    .navbar-brand{
+        padding: 0;
+        margin-left: 20px;
+        font-family: Roboto;
+        font-size: 32px;
+    }
+    .navbar-brand, .nav-link{
+        color: rgb(0, 0, 0) !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    }
+    .nav-link{
+        text-decoration: none;
+        letter-spacing: 0.5px;
+        text-transform: capitalize;
+        margin-right: 10px;
+    }
+    .nav-link::after{
+        content: "";
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 60%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 70%;
+        opacity: 0.5;
+        transition: 0.3s;
+        scroll-behavior: smooth;
+    }
+    .sticky + .content {
+        padding-top: 20px;
+    }
+
+
+
+    
+    /* VISI MISI D*/
+    .visi-misi h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: left;
+        font-size: 20pt;
+        margin-bottom: 100px;
+    }
+    .visi-misi img{
+        width: 7rem;
+        float: right;
+    
+    }
+    
+
+    /* PERATURAN D */
+    .aturan h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: left;
+        font-size: 20pt;
+        margin-bottom: 100px;
+    }
+    .aturan img{
+        width: 7rem;
+        float: right;
+    }
+
+
+    /* JUMBOTRON D */
+    .jumbotron{
+        margin-top: -150px !important;
+        height: 640px;
+    }
+
+
+    /* GALLERY D */
+    .gallery{
+        text-align: left;
+    }
+    .gallery span{
+        font-weight: 500;
+    }
+    .gallery h3{
+        font-size: 52px;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+    .gallery p{
+        font-size: 18px;
+        color: #ACACAC;
+    }
+
+
+    /* PENGURUS */
+    .pengurus h5{
+        font-size: 32px !important;
+    }
+
+
+    /* gallery parallax D */
+    .isi{
+        font-size: 4em;
+    }
+
+
+    /* KONTAK D */
+    .contact h1{
+        margin-bottom: 100px;
+        font-size: 2.7em;
+    }
+    iframe{
+        margin-top: -20px;
+        width: 80%;
+        height: 80vh;
+    }
+}
